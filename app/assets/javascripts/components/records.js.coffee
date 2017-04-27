@@ -29,11 +29,11 @@
     @replaceState records: records
 
   getInitialState: ->
-    records: @@props.data
+    records: @props.data
 
   getDefaultProps: ->
     records:[]
-    
+
   render: ->
     React.DOM.div
         className: 'records'
